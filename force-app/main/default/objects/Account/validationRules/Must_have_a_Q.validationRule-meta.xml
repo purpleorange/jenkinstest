@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Must_have_a_Q</fullName>
-    <active>true</active>
+    <active>false</active>
     <description>All shorter comments must have a Q. Otherwise the world will end</description>
     <errorConditionFormula>NOT(CONTAINS(&quot;Q&quot;, Shorter_Comment__c))</errorConditionFormula>
     <errorDisplayField>Shorter_Comment__c</errorDisplayField>

@@ -4,7 +4,7 @@
     <description>Store shorter comments than the Short Comment field</description>
     <externalId>false</externalId>
     <inlineHelpText>Enter a very short comment</inlineHelpText>
-    <label>Short Comment</label>
+    <label>Shorter Comment</label>
     <length>128</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
